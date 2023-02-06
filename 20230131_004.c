@@ -14,7 +14,7 @@ int main()
     char c1, c2;
     // Contadores:
     int i, j = 0, k = 0, l = 0;
-    // SeleÁ„o de String inicial (poder· ser alterada depois)
+    // Sele√ß√£o de String inicial (poder√° ser alterada depois)
     printf("Digite uma string inicial: ");
     scanf("%s", &p);
 
@@ -30,7 +30,7 @@ int main()
     switch (comando){
 case 1:
     printf("\n------------------------------------\nComando 1:\n\n");
-    printf("Digite uma palavra: ");
+    printf("Digite uma string: ");
     scanf("%s", &p);
     printf("\n\nDigite [1] para retornar ao menu ou [0] para finalizar: ");
     scanf("%d", &verif);
